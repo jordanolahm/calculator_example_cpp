@@ -1,5 +1,14 @@
+# Ignore compiled object files
+*.o
 
+# Ignore compiled executables
+*.out
 
--o
+# Ignore a directory named 'build'
+/build/
 
-build-*
+# Ignore a file named 'config.ini'
+config.ini
+
+# Ignore all files with a .log extension
+*.log
